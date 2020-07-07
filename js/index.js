@@ -19,3 +19,4 @@ input.addEventListener('keydown', function(e) {
   }
 });
 
+let divs = document.querySelectorAll('div');
