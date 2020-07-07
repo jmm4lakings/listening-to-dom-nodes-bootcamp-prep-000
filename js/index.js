@@ -40,4 +40,5 @@ for (let i = 0; i < divs.length; i++) {
 const divs = document.querySelectorAll('div');
  
 function bubble(e) {
+  e.stopPropagation();
   
